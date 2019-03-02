@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Domino Time</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<div class="background-gray"></div>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href=""><i class="fas fa-headset pl-1"></i>پشتیبانی</a>
+                <a href=""><i class="far fa-question-circle pl-1"></i>سوالات متداول</a>
+                <a href=""><i class="far fa-question-circle pl-1"></i>راهنما</a>
+            </div>
+            <div class="col-md-6 text-left social-top ml-0">
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-telegram-plane"></i></a>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="logo">
+    <div class="img-logo"><a href=""><img src="assets/img/logo.png" alt="" class="img-fluid"></a></div>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <button onclick="openNav()" class="navbar-toggler" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar-collapse" id="mobile-menu">
+            <ul class="navbar-nav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i>صفحه نخست<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-credit-card"></i>پرداخت آنلاین</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-money-bill"></i>مدیریت مالی</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-phone"></i>ارتباط با ما</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-user-circle"></i>مدیریت حساب</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-envelope-open"></i>دعوت بازیکن</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-question-circle"></i>راهنما</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-newspaper"></i>آخرین اخبار</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mr-auto ml-0 pl-2">
+            <button class="btn">ثبت نام / ورود</button>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-9 mb-3">
+            <div class="register">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">نام</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">نام خانوادگی</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">نام کاربری</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">آدرس ایمیل</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">شماره همراه</span>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">کلمه عبور</span>
+                        </div>
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">تکرار کلمه عبور</span>
+                        </div>
+                        <input type="password" class="form-control">
+                    </div>
+                    <img src="assets/img/recaptcha.jpg" alt="" class="img-fluid mb-5">
+                    <button class="btn w-100">ثبت نام</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="video">
+                <img src="assets/img/domino-baner-2.png" alt="" class="img-fluid">
+                <div data-toggle="modal" data-target="#video1"><i class="fas fa-play"></i></div>
+            </div>
+            <div class="video">
+                <img src="assets/img/domino-baner-1.png" alt="" class="img-fluid">
+                <div data-toggle="modal" data-target="#video2"><i class="fas fa-play"></i></div>
+            </div>
+            <img src="assets/img/clock.jpg" alt="" class="clock">
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#news" role="tab">اطلاعیه ها</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#players" role="tab">بازیکنان آنلاین</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="news" role="tabpanel">
+                    <div class="row">
+                        <div class="col-3 mb-3 px-1"><img src="assets/img/news.jpg" alt=""></div>
+                        <div class="col-9 mb-3 px-1">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                        </div>
+                        <div class="col-3 mb-3 px-1"><img src="assets/img/news.jpg" alt=""></div>
+                        <div class="col-9 mb-3 px-1">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                        </div>
+                        <div class="col-3 mb-3 px-1"><img src="assets/img/news.jpg" alt=""></div>
+                        <div class="col-9 mb-3 px-1">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                        </div>
+                        <div class="col-3 px-1"><img src="assets/img/news.jpg" alt=""></div>
+                        <div class="col-9 px-1">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="players" aria-labelledby="profile-tab">
+                    <div class="row">
+                        <div class="col-3 px-1 mb-3"><img src="assets/img/female.jpg" alt=""></div>
+                        <div class="col-9 px-1 mb-3">
+                            <p>نام کاربری</p>
+                        </div>
+                        <div class="col-3 px-1 mb-3"><img src="assets/img/female.jpg" alt=""></div>
+                        <div class="col-9 px-1 mb-3">
+                            <p>نام کاربری</p>
+                        </div>
+                        <div class="col-3 px-1"><img src="assets/img/male.jpg" alt=""></div>
+                        <div class="col-9 px-1">
+                            <p>نام کاربری</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6 mb-3">
+                <h2>درباره سایت دومینو تایم</h2>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.لورم ایپسوم متن ساختگی با </p>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <h2>اطلاعات</h2>
+                <ul>
+                    <li><a href=""><i class="fas fa-caret-left"></i>پاسخ به پرسش های متداول</a></li>
+                    <li><a href=""><i class="fas fa-caret-left"></i>شرایط استفاده</a></li>
+                    <li><a href=""><i class="fas fa-caret-left"></i>رویه های پرداخت</a></li>
+                    <li><a href=""><i class="fas fa-caret-left"></i>حریم خصوصی</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <h2>تورنومنت ها</h2>
+                <ul>
+                    <li><a href=""><i class="fas fa-caret-left"></i>تورنومنت اول</a></li>
+                    <li><a href=""><i class="fas fa-caret-left"></i>تورنومنت دوم</a></li>
+                    <li><a href=""><i class="fas fa-caret-left"></i>تورنومنت سوم</a></li>
+                    <li><a href=""><i class="fas fa-caret-left"></i>تورنومنت چهارم</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <h2>ارتباط با ما</h2>
+                <div>
+                    <a href=""><i class="fab fa-telegram-plane pl-1 pr-0"></i></a>
+                    <a href=""><i class="fab fa-instagram pl-1 pr-0"></i></a>
+                    <i class="fas fa-angle-double-left pl-2 pr-0"></i>
+                    @dominotime.ir
+                </div>
+                <div class="my-2">آدرس ایمیل : info@dominotime.ir</div>
+                <div>تلفن های تماس : 44045602-021</div>
+            </div>
+            <div class="col-12 text-center">کلیه حقوق برای سایت دومینو تایم محفوظ می باشد.</div>
+        </div>
+    </div>
+</footer>
+<!-- video1 -->
+<div class="modal fade animated tada" id="video1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content shadow-lg">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">چگونه DRAW بازی کنیم؟</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <video id="video11" style="width: 100%; height: auto;" controls="">
+                <source src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_2160p_60fps_normal.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- video2 -->
+<div class="modal fade animated tada" id="video2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">چگونه ALL FIVES بازی کنیم؟</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <video id="video12" style="width: 100%; height: auto;" controls="">
+                <source src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_2160p_60fps_normal.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video tag.
+            </video>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</html>
